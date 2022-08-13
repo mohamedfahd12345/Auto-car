@@ -1,0 +1,60 @@
+.container{
+    display:flex;
+    justify-content:center ;
+    flex-wrap: wrap;  
+      /* warp->it organize it self(very nice for fone)    nowrap->all adjsent(no for phone) */
+}
+.card{
+    background-color:#e9e9ec;
+    width: 300px;
+    /* height: 400px; */
+    margin: 10px;
+    border-radius:15px ;
+    box-shadow:2px 2px 5px rgb(90, 58, 58) ;
+    
+}
+.card-image{
+    background-color: aqua;
+    height: 160px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius:15px 15px 0 0;
+
+}
+.car-1{
+    background-image: url('./imgs/elec.jpg') ;
+}
+.car-2{
+    background-image: url('./imgs/sport.jpg') ;
+}
+.car-3{
+    background-image: url('./imgs/van.jpg') ;
+}
+
+.car-4{
+    background-image: url('./imgs/bmw.jpg') ;
+}
+.car-5{
+    background-image: url('./imgs/mercd.jpg') ;
+}
+
+.card p{
+    padding: 10px;
+}
+.card a{
+    background-color: black;
+    color:white;
+    padding: 15px 20px;
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+    text-decoration: none;
+}
+.card:hover{
+    background-color: rgb(164, 164, 166);
+    color: bisque;
+    cursor: pointer;
+    transform: scale(1.07);
+    transition: all 1s ease;
+    
+}
