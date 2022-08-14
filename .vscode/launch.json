@@ -5,10 +5,10 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "pwa-chrome",
             "request": "launch",
-            "name": "Open index.html",
-            "file": "c:\\Users\\wa3d\\Desktop\\New folder\\index.html"
+            "name": "Launch Chrome against localhost",
+            "type": "chrome",
+            "file": "c:\\Users\\wa3d\\Desktop\\web\\index.html"
         }
     ]
 }
